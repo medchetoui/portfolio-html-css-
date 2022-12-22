@@ -5,13 +5,13 @@
     box-sizing: border-box; 
 }
 body{
-    background-color: #000000;
-    color: #fff;
+    background-color:rgb(202, 228, 235);
+    color:rgb(19, 60, 121) ;
 }
 #header{
     width: 100%;
     height: 100vh;
-    background-image:url(image/background.png);
+    background-image:url(image/background.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -35,7 +35,7 @@ nav ul li{
     margin: 10px 20px;
 }
 nav ul li a{
-    color:#fff;
+    color:rgb(19, 60, 121);
     text-decoration: none;
     font-size: 18px ;
     position: relative;
@@ -45,7 +45,7 @@ nav ul li a::after{
     content: '';
     width:0%;
     height: 3px;
-    background:#09cc13e0;
+    background:#42c498e0;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -64,18 +64,18 @@ nav ul li a:hover::after{
     margin-top: 20px;
 }
 .header-text h1 span{
-    color: #09cc13e0;
+    color: #42c498e0;
 }
 #about{
     padding: 80px 0;
-    color: #ababab;
+    color:rgb(19, 60, 121);
 }
 .row{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-about-col-1{
+.about-col-1{
     flex-basis: 35%;
 }
 .about-col-1 img{
@@ -88,7 +88,7 @@ about-col-1{
 .sub-title{
     font-size: 60px;
     font-weight: 600 ;
-    color: #fff;
+    color:#42c498e0;
 }
 .tab-titles{
     display: flex;
@@ -99,14 +99,14 @@ about-col-1{
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
-    position: relative;
+    position: absolute;
 }
 .tab-links{
     content: '';
     width: 0;
     height: 3px;
-    background: #09cc13e0;
-    position: absolute;
+    background: #42c498e0;
+    position: relative;
     left: 0;
     bottom: -8px;
     transition: 500ms;
@@ -120,7 +120,7 @@ about-col-1{
     margin: 10px 0;
 }
 .tab-contents ul li span{
-    color:#09cc13e0;
+    color:#42c498e0;
     font-size: 14px;
 
 }
@@ -138,11 +138,11 @@ tab-contents{
 .services-list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap:  4px;
+    grid-gap:  40px;
     margin-top: 50px;
 }
 .services-list div{
-    background: #262626 ;
+    background: #fff ;
     padding: 40px;
     font-size: 19px;
     font-weight: 300;
@@ -155,7 +155,7 @@ tab-contents{
 }
 .services-list div h2{
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 900;
     margin-bottom: 15px;
 }
 .services-list div a{
@@ -166,7 +166,7 @@ tab-contents{
     display: inline-block;
 }
 .services-list div:hover{
-    background: #09cc13e0;
+    background: #42c498e0;
     transform: translateY(-10px);
 }
 
